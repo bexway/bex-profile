@@ -2,13 +2,6 @@
   background-color: #8cb8ff
 }
 
-#bio_img{
-  width: 200px;
-  height: 300px;
-  float:left;
-  margin-left: 100px
-}
-
 .title{
   font-weight: bold;
   color: #334460;
@@ -17,6 +10,13 @@
 
 .gentext{
   color: #334460;
+}
+
+#bio_img{
+  width: 200px;
+  height: 300px;
+  float:left;
+  margin-left: 100px
 }
 
 #header{
