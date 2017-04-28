@@ -12,16 +12,16 @@
   color: #334460;
 }
 
+.header{
+  background-color: #334460;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 #bio_img{
   width: 200px;
   height: 300px;
   float:left;
   margin-left: 100px
-}
-
-#header{
-  background-color: #334460;
-  color: white;
-  margin-bottom: 20px;
-  text-align: center;
 }
