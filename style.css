@@ -1,0 +1,27 @@
+.page {
+  background-color: #8cb8ff
+}
+
+#bio_img{
+  width: 200px;
+  height: 300px;
+  float:left;
+  margin-left: 100px
+}
+
+.title{
+  font-weight: bold;
+  color: #334460;
+  font-size: 2em;
+}
+
+.gentext a {
+  color: #334460;
+}
+
+#header{
+  background-color: #334460;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
