@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
   --primary-dark: #5D737E;
-  --primary-light: #FCFCFC;
-  --accent-light: #1B998B;
-  --accent-medium: #1B2955;
+  /*--primary-light: #FCFCFC;*/
+  --primary-light: #D8D9D8;
+  --accent-light: #C0BDA5;
+  --accent-medium: #1E4A68;
+  --accent-hover: #3075a5;
   --accent-dark: #02111B;
 }
 
@@ -31,12 +33,24 @@
   background-color: var(--primary-light);
 }
 
+.display-block{
+  display: block;
+}
+
+.display-inline{
+  display: inline-block;
+}
+
 .flex{
   display: flex;
 }
 
 .flex-around{
   justify-content: space-around;
+}
+
+.flex-between{
+  justify-content: space-between;
 }
 
 .flex-center{
@@ -59,27 +73,62 @@
   flex-wrap: wrap;
 }
 
+.flex-vcenter{
+  align-items: center;
+}
+
+.font-center{
+  text-align: center;
+}
+
+.font-italics{
+  font-style: italic;
+}
+
 .font-light{
   color: var(--primary-light);
+}
+
+.font-lineheight-title{
+  line-height: 1.25em;
+}
+
+.fontsize-title{
+  font-size: 2em;
+}
+
+.fontsize-subtitle{
+  font-size: 1.5em;
+}
+
+.fontsize-general{
+  font-size: 1.5em;
+}
+
+.fontsize-small{
+  font-size: 1em;
 }
 
 .gentext{
   color: #334460;
 }
 
-.header{
-  background-color: var(--accent-dark);
-  color: white;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
 .hidden{
   display: none;
 }
 
-.inline{
-  display: inline-block;
+.icon-small{
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.padding-thin{
+  padding: .25em;
+}
+
+.size-full{
+  width: 100%;
+  height: 100%;
 }
 
 .size-quarter{
@@ -97,15 +146,39 @@
   height: 5%;
 }
 
-.title{
-  font-weight: bold;
-  color: #334460;
-  font-size: 2em;
+.v-divider{
+  margin: 5px 0px;
+  border-left: 1px solid white;
+  display: inline;
 }
 
-#bio_img{
-  width: 200px;
-  height: 300px;
-  float:left;
-  margin-left: 100px
+.width-full{
+  width: 100%;
+}
+
+
+.navbar-item:hover{
+  animation: fadein 1s;
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  background-color: var(--accent-hover);
+  border-radius: 5px;
+}
+
+.navbar-item:active{
+  animation: fadein 1s;
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  background-color: var(--accent-hover);
+  border-radius: 5px;
+}
+
+@-webkit-keyframes fadein {
+  from {
+      background-color: var(--accent-medium);
+  }
+  to {
+      background-color: var(--accent-hover);
+  }
+}
+
+@media (min-width: 980px) {
 }
