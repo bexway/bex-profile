@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
   --primary-dark: #5D737E;
-  /*--primary-light: #FCFCFC;*/
   --primary-light: #D8D9D8;
+    /*--primary-light: #FCFCFC;*/
   --accent-light: #C0BDA5;
   --accent-medium: #1E4A68;
   --accent-hover: #3075a5;
@@ -94,19 +94,23 @@
 }
 
 .fontsize-title{
-  font-size: 2em;
+  font-size: 2.25em;
 }
 
 .fontsize-subtitle{
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 
 .fontsize-general{
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .fontsize-small{
   font-size: 1em;
+}
+
+.fontstyle-bold{
+  font-weight: bold;
 }
 
 .gentext{
@@ -118,8 +122,8 @@
 }
 
 .icon-small{
-  max-width: 35px;
-  max-height: 35px;
+  width: 35px;
+  height: 35px;
 }
 
 .padding-thin{
