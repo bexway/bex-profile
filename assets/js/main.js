@@ -14,6 +14,7 @@ window.onload = function() {
   addClasses("header-subsec", ["display-inline"]);
   addClasses("navbar", ["flex", "flex-around", "bg-accent-medium", "font-light", "fontsize-general"]);
   addClasses("navbar-item", ["inline", "size-full", "font-center", "padding-thin"]);
+  addClasses("readmore", ["hidden"])
 
 
   addClasses("about-page", ["hidden"]);
@@ -29,6 +30,8 @@ function addClasses(addTo, classesList){
       elements[i].className += " " + classesToAdd;
   }
 }
+
+
 
 
 // https://stackoverflow.com/questions/32421616/how-to-remove-class-with-media-queries
